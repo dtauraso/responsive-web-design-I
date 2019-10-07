@@ -414,3 +414,106 @@ ul {
 	width: 46%;
     height: 240px;
 }
+
+/*  tablet rules */
+/*
+set display of large circle image to none
+separate great idea and 
+*/
+/*  max-width doesn't define how wide the page is*/
+@media (max-width: 800px) {
+    .everything{
+        width: 600px;
+        margin: 0 auto;
+    
+    }
+    .promptImage {
+        display: none;
+    }
+    .innovation {
+        display: flex;
+        margin-top: 5%;
+        /* justify-content: center; */
+        /* border: 10px black; */
+    }
+    .innovationPrompt {
+        display: flex;
+        /* justify-content: center; */
+        margin-left: 15%;
+    }
+    .button {
+        height: 20%;   
+    }
+    .fullNavBar {
+        width: 120%;
+    }
+    .navBar {
+        flex-direction: column-reverse;
+    }
+    .navImage {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+    /* change direction of flexbox for great idea? */
+}
+
+@media (max-width: 500px){
+
+    .everything{
+        width: 400px;
+        margin: 0 auto;
+    
+    }
+    .promptImage {
+        display: none;
+    }
+    .innovation {
+        display: flex;
+        margin-top: 5%;
+        /* justify-content: center; */
+        /* border: 10px black; */
+    }
+    .innovationPrompt {
+        display: flex;
+        /* justify-content: center; */
+        margin-left: 15%;
+    }
+    .button {
+        height: 20%;   
+    }
+    .fullNavBar {
+        width: 120%;
+    }
+    .navBar {
+        flex-direction: column-reverse;
+    }
+    .navImage {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+    nav a {
+        border: 1px solid black;
+        width: 200%;
+        text-align: center;
+        padding: 5%;
+    }
+    .lastPart {
+        flex-direction: column;
+    }
+    .address {
+        margin-bottom: 10%;
+    }
+}
