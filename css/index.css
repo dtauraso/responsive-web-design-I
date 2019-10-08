@@ -198,7 +198,9 @@ hr {
 }
 .everything {
 	width: 900px;
-	margin: 0 auto;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 /* for services.html*/
@@ -327,9 +329,15 @@ separate great idea and
         /* justify-content: center; */
         /* margin-left: 15%; */
     }
+    .prompt {
+        margin-bottom: 2%;
+        /* border-radius: 0px; */
+
+    }
     .button {
-        height: 20%;
+        /* height: 5%; */
         width: 20%;
+        margin-bottom: 7%;
     }
     .fullNavBar {
         width: 100%;
@@ -350,6 +358,9 @@ separate great idea and
     .imageWrapper {
         width: 100%;
         padding: 0%;
+    }
+    .address {
+        margin-bottom: 5%;
     }
     /* change direction of flexbox for great idea? */
 }
