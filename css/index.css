@@ -114,16 +114,21 @@ nav {
 	flex-direction: column;
 	text-align: center;
 	font-family: "bangers";
-	font-size: 70px;
+    font-size: 70px;
+    margin-bottom: 10%;
 }
 /* caused me some trouble,can't get the spaceing between innovation on demand and the button right*/
 .button {
-	height: 10%;
-	width: 50%;
-	text-align: center;
+	height: 13%;
+	width: 57%;
+	/* text-align: center; */
 	border: 2px solid black;
 
     font-size: 20px;
+    outline:none;
+    box-shadow: none;
+    background-color: white;
+  
 
 }
 
